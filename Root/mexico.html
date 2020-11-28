@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <style>
             #mexico{
@@ -9,17 +13,56 @@
         </style>
     </head>
     <body>
-        <h1>
-            Covid Facts
-        </h1>
-        <div id="menu">
-            <a href="home.html" id="home">Home</a>
-            <a href="russia.html" id="russia">Russia</a>
-            <a href=canada.html id="canada">Canada</a>
-            <a href=poland.html id="poland">Poland</a>
-            <a id="mexico">Mexico</a>
-            <a href="china.html" id="china">China</a>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id = nav>
+        <span class="name pull-left text-light font-weight-bold">Covid Info</span>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a id = homeButton class="nav-link" href="main.html">Home</a>
+                <!--<div id = dropDownForHome>
+                    <a href="">Start of Covid</a><br>
+                    <a href="">Russia Today</a>
+                </div>-->
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="russia.html">Russia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="canada.html">Canada</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="poland.html">Poland</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mexico.html">Mexico</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="china.html">China</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=>  </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="effort.html">Effort</a>
+            </li>
+        </ul>
+    </nav>
         
         <main>
             <img src="Mexico%20Chart.png">
