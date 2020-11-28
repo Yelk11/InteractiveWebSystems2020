@@ -8,12 +8,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="style.css" rel="stylesheet" />
     <title>Main Page</title>
     <style>
        .mySlides {width: 900px; height: auto; border-radius: 25px; border-width: thick; border-style: solid; }
-       #p1 {font-size: 24px; font-family: Calibri;}
+       #p1 {font-size: 24px; font-family: Calibri; padding: 1%}
        h1 {font-size: 60px;}
+       footer {position: relative; }
     </style>
 </head>
 <body>
@@ -25,7 +27,11 @@
                 <a class="nav-link" href=>  </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="main.html">Home</a>
+                <a id = homeButton class="nav-link" href="main.html">Home</a>
+                <div id = dropDownForHome>
+                    <a href="">Start of Covid</a><br>
+                    <a href="">Russia Today</a>
+                </div>
             <li class="nav-item">
                 <a class="nav-link" href=>  </a>
             </li>
@@ -65,8 +71,8 @@
         </ul>
     </nav>
    <center><div style="max-width:1000px">
-       <img class="mySlides" src="boop2.jpg" style="width:100%">
        <img class="mySlides" src="boop.jpg" style="width:100%">
+       <img class="mySlides" src="boop2.jpg" style="width:100%">
        <img class="mySlides" src="boop3.jpg" style="width:100%">
    </div></center>
 </header>

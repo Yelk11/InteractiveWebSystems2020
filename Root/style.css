@@ -98,3 +98,6 @@ footer{
     font-family: Calibri;
 
 }
+
+#dropDownForHome{font-family: Calibri; font-size: 18px; border-style: solid; border-color: black; border-radius: 5px; background-color: white;visibility: hidden;}
+.showDropDown {font-family: Calibri; font-size: 18px; border-style: solid; border-color: black; border-radius: 5px; background-color: white;visibility: visible;}

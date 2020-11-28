@@ -10,3 +10,9 @@ function slide() {
     setTimeout(slide, 2000); // Change image every 2 seconds
 }
 slide();
+
+$(document).ready(function(){
+    $('#homeButton').on('click', function (){
+        document.getElementById('dropDownForHome').classList.toggle('showDropDown')
+    })
+})
