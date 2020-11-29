@@ -28,31 +28,31 @@
                 <li class="nav-item">
                     <a class="nav-link" href=> </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" id = russiaButton onmouseenter="dropDown1()" onmouseout ="dropDown1a()">
                     <a class="nav-link" href="russia.html">Russia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href=> </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onmouseenter="dropDown2()" onmouseout ="dropDown2a()">
                     <a class="nav-link" href="canada.html">Canada</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href=> </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onmouseenter="dropDown3()" onmouseout ="dropDown3a()">
                     <a class="nav-link" href="poland.html">Poland</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href=> </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onmouseenter="dropDown4()" onmouseout ="dropDown4a()">
                     <a class="nav-link" href="mexico.html">Mexico</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href=> </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onmouseenter="dropDown5()" onmouseout ="dropDown5a()">
                     <a class="nav-link" href="china.html">China</a>
                 </li>
                 <li class="nav-item">
@@ -63,6 +63,26 @@
                 </li>
             </ul>
         </nav>
+        <div id = dropDownForRussia class = dropdown-content>
+            <a href="russia.html">Start of Covid</a><br>
+            <a href="russia.html">Russia Today</a>
+        </div>
+        <div id = dropDownForCanada class = dropdown-content>
+            <a href="">Start of Covid</a><br>
+            <a href="">Canada Today</a>
+        </div>
+        <div id = dropDownForPoland class = dropdown-content>
+            <a href="">Start of Covid</a><br>
+            <a href="">Poland Today</a>
+        </div>
+        <div id = dropDownForMexico class = dropdown-content>
+            <a href="">Start of Covid</a><br>
+            <a href="">Mexico Today</a>
+        </div>
+        <div id = dropDownForChina class = dropdown-content>
+            <a href="">Start of Covid</a><br>
+            <a href="">China Today</a>
+        </div>
     </header>   
         
         <main>
@@ -75,5 +95,38 @@
         <footer>
             <p>&copy; 2020, Covid Info</p>
         </footer>
+    <script>
+        function dropDown1(){
+            document.getElementById('dropDownForRussia').classList.toggle('show')
+        }
+        function dropDown1a(){
+            document.getElementById('dropDownForRussia').classList.toggle('hide')
+        }
+        function dropDown2(){
+            document.getElementById('dropDownForCanada').classList.toggle('show')
+        }
+        function dropDown2a(){
+            document.getElementById('dropDownForCanada').classList.toggle('hide')
+        }
+        function dropDown3(){
+            document.getElementById('dropDownForPoland').classList.toggle('show')
+        }
+        function dropDown3a(){
+            document.getElementById('dropDownForPoland').classList.toggle('hide')
+        }
+        function dropDown4(){
+            document.getElementById('dropDownForMexico').classList.toggle('show')
+        }
+        function dropDown4a(){
+            document.getElementById('dropDownForMexico').classList.toggle('hide')
+        }
+        function dropDown5(){
+            document.getElementById('dropDownForChina').classList.toggle('show')
+        }
+        function dropDown5a(){
+            document.getElementById('dropDownForChina').classList.toggle('hide')
+        }
+
+    </script>
     </body>
 </html>
