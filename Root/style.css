@@ -23,6 +23,45 @@ h1{
 }
 
 
+a{
+    color: black;
+}
+main{
+    background-color: white;
+    padding: 10px;
+}
+
+p {
+    font-family: calibri;
+    font-size: 24px;
+}
+main img{
+    float:right;
+    width: 600px;
+    height: 450px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 25px;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: inherit;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    
+}
+a{
+    color: black;
+}
+
+a:hover{
+    background-color: #c1f300;
+    border-radius: 10px;
+}
 main{
     background-color: white;
     padding: 10px;
