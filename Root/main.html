@@ -28,10 +28,14 @@
             </li>
             <li class="nav-item">
                 <a id = homeButton class="nav-link" href="main.html">Home</a>
-                <!--<div id = dropDownForHome>
-                    <a href="">Start of Covid</a><br>
-                    <a href="">Russia Today</a>
-                </div>-->
+
+                <script>
+                    $(document).ready(function(){
+                        $('#homeButton').on('click', function (){
+                            document.getElementById('dropDownForHome').classList.toggle('showDropDown')
+                        })
+                    })
+                </script>
             <li class="nav-item">
                 <a class="nav-link" href=>  </a>
             </li>
@@ -62,7 +66,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="china.html">China</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item">   `
                 <a class="nav-link" href=>  </a>
             </li>
             <li class="nav-item">
@@ -70,6 +74,10 @@
             </li>
         </ul>
     </nav>
+   <!-- <div id = dropDownForHome>
+        <a href="">Start of Covid</a><br>
+        <a href="">Russia Today</a>
+    </div>-->
    <center><div style="max-width:1000px">
        <img class="mySlides" src="boop.jpg" style="width:100%">
        <img class="mySlides" src="boop2.jpg" style="width:100%">
@@ -96,5 +104,6 @@
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>

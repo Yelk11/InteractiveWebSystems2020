@@ -11,8 +11,4 @@ function slide() {
 }
 slide();
 
-$(document).ready(function(){
-    $('#homeButton').on('click', function (){
-        document.getElementById('dropDownForHome').classList.toggle('showDropDown')
-    })
-})
+
