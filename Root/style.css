@@ -104,11 +104,24 @@ a:hover{
     height: 270px;
     left: 10%;
     top: 75px;
+    visibility: visible;
 
 }
 
-.showDropDown {
-
+.show9DropDown {
+    position: absolute;
+    font-family: Calibri;
+    font-weight: bold;;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 2px;
+    background-color: #4d4d53;
+    width: 150px;
+    height: 270px;
+    left: 10%;
+    top: 75px;
+    visibility: visible;
 }
 
 body{
