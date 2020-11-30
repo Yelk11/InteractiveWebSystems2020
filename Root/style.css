@@ -24,7 +24,7 @@ h1{
     text-decoration: none;
 }
 a{
-    color: black;
+    color: white;
 }
 main{
     background-color: white;
@@ -162,9 +162,8 @@ a:hover{
 body{
     background-image: url("Images/19366.jpg");
 }
-a{
-    color: white;;
-}
+
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -173,4 +172,11 @@ a{
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+.lawrence{
+    font-family: Calibri;
+    font-size: 72px;
+    font-weight: bold;;
+    color: cornflowerblue;
 }
